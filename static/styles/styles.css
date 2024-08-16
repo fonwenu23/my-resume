@@ -10900,6 +10900,10 @@ html {
 #mainNav .navbar-brand {
   color: #fff;
 }
+#mainNav .navbar-brand:hover {
+  color: #bc501a;
+}
+
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
@@ -10907,7 +10911,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #bc501a;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10927,7 +10931,7 @@ html {
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 1.55em;
     transition: font-size 0.3s;
   }
   #mainNav .navbar-nav {
@@ -10948,23 +10952,6 @@ html {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
-.form-floating input.form-control,
-.form-floating textarea.form-control {
-  font-size: 1.5rem;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  border-radius: 0;
-  border-width: 1px;
-}
-.form-floating input.form-control:focus,
-.form-floating textarea.form-control:focus {
-  box-shadow: none;
-}
-.form-floating label {
-  font-size: 1.5rem;
-  color: #6c757d;
 }
 
 .masthead {
